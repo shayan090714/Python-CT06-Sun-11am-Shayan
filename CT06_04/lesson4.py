@@ -1,4 +1,4 @@
-from cmath import phase
+
 
 
 print("Hello from lesson 4")
@@ -38,5 +38,5 @@ amount=17.95
 print(" please pay me$" ,round(quantity*amount,2))
 
 anumber=input("give me a number:")
-anumber=int(anumber*2)
-print("the results is"+str (results) )
+anumber=input(anumber*2)
+print("the results is"+ (anumber) )
