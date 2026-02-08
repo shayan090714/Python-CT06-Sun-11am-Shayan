@@ -17,4 +17,14 @@ print("Hello from lesson 5")
 n1=input("give me a number:") 
 n1=int(n1)
 n2=input("give me another number:") 
-n2=int(n2)     
+n2=int(n2)
+
+if n1>n2:
+    start=n2
+    stop=n1
+else:
+    start=n1
+    stop=n2
+
+for count in range(start,stop):
+    print(count)
