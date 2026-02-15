@@ -26,5 +26,10 @@ else:
     start=n1
     stop=n2
 
-for count in range(start,stop):
-    print(count)
+#for count in range(start,stop):
+    #print(count)
+
+num=0
+for count in range (10):
+    num=num+count
+print("The total is",num)
