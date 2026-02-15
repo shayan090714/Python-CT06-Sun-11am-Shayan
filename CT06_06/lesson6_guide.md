@@ -36,22 +36,22 @@ print "Hello, World!"
 
 ---------------------------------------------------------------
 
-## Task 2: Name Errors
-Fix the errors in the following:
+**Task 1a**:
+for i in range(3)
+    print("Hello, World!")
 
-**Task 2a**:
-print(age)
+**Task 1b**:
+for i in range(5):
+print(i)
 
-**Task 2b**:
-name = "Alice"
-print(nam)
+**Task 1c**:
+print("Hello, World!)
 
-**Task 2c**:
-print(x)
-x = 5
+**Task 1d**:
+if = 5
 
-**Task 2d**:
-pint("Hello, World!")
+**Task 1e**:
+print "Hello, World!"
 
 ---------------------------------------------------------------
 
