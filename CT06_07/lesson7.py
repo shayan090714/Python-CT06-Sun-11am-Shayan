@@ -25,5 +25,4 @@ print("Hello from lesson 7")
 
 anum=int(input("which times table?"))
 for count in range(1,13):
-    answer=
     print(anum,"x",count,"=",)
