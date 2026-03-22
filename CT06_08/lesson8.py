@@ -34,11 +34,16 @@
 #print (x==y)
 
 import random
-num1=random.randint(1,50)
-num2=random.randint(1,50)
-question="What is"+str(num1)+"+"+str(num2)+"?"
-hiddenanswer=num1+num2
-reply=input(question)
-reply=int(reply)
-print(reply==hiddenanswer)
+num_questions=int(input("How many questions?"))
+for count in range(num_questions):
+    num1 = random.randint(1,6)
+    num2 = random.randint(1,6)
+    question="What is"+str(num1)+"+"+str(num2)+"?"
+    hidden_answer=num1+num2
+    user_answer = int(input(question))
+    if hidden_answer == user_answer:
+        print("correct")
+    else:
+        print("wrong")
+
 
