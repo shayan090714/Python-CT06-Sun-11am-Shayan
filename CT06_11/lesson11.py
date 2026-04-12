@@ -34,8 +34,3 @@
 #    print("The price of the ticket for you is $15")
 #else:
 #    print("The price of the ticket for you is $20")
-
-colour = input("What is the colour ?")
-isgreen == "green"
-if  not isgreen:
-    print("Try again")
