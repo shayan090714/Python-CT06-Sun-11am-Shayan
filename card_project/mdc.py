@@ -115,7 +115,7 @@ MESSAGE_ASSET_BACK_FILE = "blessing.png"
 # This image is used for the
 # floating background animation.
 
-FLOATING_ASSET_FILE = "panda_v2.png"
+FLOATING_ASSET_FILE = "carnation_v1.PNG"
 
 
 # =========================
@@ -161,7 +161,7 @@ SUBMESSAGE_FONT_SIZE = 25
 
 message = "Happy Mother's Day"
 
-sub_message = "Thank you for always supporting me \nand believing in me every single day!"
+sub_message = "Thank you for alwas standing by my side!"
 
 # =========================
 # FILE PATHS
@@ -320,13 +320,13 @@ def draw_waterfall(draw, frame):
 
         draw.line(
             (x, y, x, y + 35),
-            fill="#7dd3fc",
+            fill="#3f525b",
             width=3
         )
 
         draw.ellipse(
             (x - 3, y + 35, x + 3, y + 41),
-            fill="#bae6fd"
+            fill="#1b7cb0"
         )
 
 
@@ -427,7 +427,7 @@ def draw_sliding_message(img, draw, frame):
     draw.text(
         (text_x, text_y),
         message,
-        fill="#7a1f44",
+        fill="#010200",
         font=font_big
     )
 
@@ -538,7 +538,7 @@ def draw_rotating_pulsing_flower(
                 x + flower_size,
                 y + flower_size
             ),
-            fill="#ff8fab"
+            fill="#0cca61"
         )
 
     draw.ellipse(
@@ -548,7 +548,7 @@ def draw_rotating_pulsing_flower(
             center_x + center_size,
             center_y + center_size
         ),
-        fill="#ffd166"
+        fill="#0550ff"
     )
 
 
@@ -638,7 +638,7 @@ def draw_subtitle(draw, frame):
             draw.text(
                 (line_x, line_y),
                 line,
-                fill="#5c2a3d",
+                fill="#000000",
                 font=font_small
             )
 
@@ -659,7 +659,7 @@ for frame in range(FRAMES):
     img = Image.new(
         "RGB",
         (WIDTH, HEIGHT),
-        "#ffd6e8"
+        "#F93C3C"
     )
 
     draw = ImageDraw.Draw(img)
