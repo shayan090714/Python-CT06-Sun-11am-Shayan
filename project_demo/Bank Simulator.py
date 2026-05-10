@@ -17,3 +17,5 @@ while True:
     if reply == "Check Balance":
         print("You have",user_acc_bal,"dollars in your account")
         reply = input("Would you like to Withdraw , Deposit , Check Balance or Exit")
+    if reply == "Exit":
+        print("Have a nice day")
