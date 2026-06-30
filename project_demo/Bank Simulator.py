@@ -19,3 +19,4 @@ while True:
         reply = input("Would you like to Withdraw , Deposit , Check Balance or Exit")
     if reply == "Exit":
         print("Have a nice day")
+        break
